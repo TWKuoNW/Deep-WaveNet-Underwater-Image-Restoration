@@ -32,7 +32,7 @@ if not os.path.exists(result_dir):
     os.makedirs(result_dir)
 
 if __name__ =='__main__':
-
+    print("start...")
     total_files = os.listdir(INP_DIR)
     st = time.time()
     with tqdm(total=len(total_files)) as t:
